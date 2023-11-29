@@ -38,3 +38,48 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Setup Info
+```bash
+$ npx create-next-app@latest
+✔ What is your project named? … acl-poc-page
+✔ Would you like to use TypeScript? … No / Yes
+✔ Would you like to use ESLint? … No / Yes
+✔ Would you like to use Tailwind CSS? … No / Yes
+✔ Would you like to use `src/` directory? … No / Yes
+✔ Would you like to use App Router? (recommended) … No / Yes
+✔ Would you like to customize the default import alias (@/*)? … No / Yes
+Creating a new Next.js app in /opt/acl-poc-page.
+
+Using npm.
+
+Initializing project with template: default
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+
+
+added 30 packages, and audited 31 packages in 8s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Initialized a git repository.
+
+Success! Created acl-poc-page at /opt/acl-poc-page
+
+$ npm i -E react@18.2.0 react-dom@18.2.0
+$ npm i -D -E @types/node@20.10.0 @types/react-dom@18.2.17 @types/react@18.2.39 typescript@5.3.2
+$ npm i -E @astrouxds/react@7.19.1
+$ npm i -D -E @types/node@18.18.13
+```
